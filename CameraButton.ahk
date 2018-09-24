@@ -17,7 +17,7 @@ else
 	RunWait, ".\\TakePicture.exe"		;Take the picture of the bad guy who wants to access your data
 	Run, %Clipboard%
 	Clipboard = %clp%
-	MsgBox, "Hey sweaty!"				;Sexy message
+	MsgBox, "Hey sweetie!"				;Sexy message
 }
 
 return
